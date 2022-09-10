@@ -2,12 +2,13 @@
 cd ~/Downloads/
 sudo apt update
 sudo apt upgrade -y
-sudo apt install discord 
+sudo apt install snapd 
+sudo snap install discord 
 sudo sh -c 'echo "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo apt-get update
 sudo apt install google-chrome-stable
-sudo apt install snapd 
+
 sudo sudo snap install phpstorm --classic
 sudo snap install datagrip 
 sudo snap install spotify
